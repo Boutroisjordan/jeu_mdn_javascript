@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test js</title>
+</head>
+<body>
+    <h1>Deviner un nombre</h1>
+    <p>Nous avons généré un nombre aléatoire entre 1 et 100, tentez de le devenier en 10 tours maximum. Pour chaque tentatvie, nous vous dirons si votre estimation est trop ou pas assez élevée.</p>
+    <div class="form">
+        <label for="guessField">Entrez votre proposition:</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="valider" class="guessSubmit">
+</div>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
